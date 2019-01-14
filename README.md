@@ -38,7 +38,7 @@ Alternatively, enable one of your own builds to produce build scans by following
 
 Read the [build scan plugin user manual][manual] to learn more about build scans and the build scan plugin.
 
-## Need help?
+## Need help? # Testing
 
 Talk to us on the [Gradle forum][gradle-forum].
 
