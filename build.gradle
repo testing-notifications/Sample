@@ -3,7 +3,6 @@ plugins {
     id 'java'
 //    id 'checkstyle'
 }
-
 buildScan {
     licenseAgreementUrl = 'https://gradle.com/terms-of-service'
     licenseAgree = 'yes'
@@ -11,13 +10,14 @@ buildScan {
 //    publishAlways()
 }
 
+
 repositories {
     jcenter()
 }
 
 dependencies {
-    compile "com.google.guava:guava:18.0"
-    testCompile "junit:junit:4.11"
+    compile 'com.google.guava:guava:23.0'
+    testCompile 'junit:junit:4.12'
 }
 
 //apply from: "$rootDir/customData.gradle"
